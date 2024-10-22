@@ -1,0 +1,1 @@
+alert('The connection is alive!!!')
