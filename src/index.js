@@ -1,1 +1,1 @@
-alert('The connection is alive!!!')
+console.log('connection is set!!!')
