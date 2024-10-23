@@ -1,3 +1,7 @@
 body {
-    background-color: green;
+    background-color: rgb(79, 206, 79);
+}
+
+button {
+    font-size: 3rem;
 }
