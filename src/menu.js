@@ -17,9 +17,12 @@ export default function loadMenu() {
         <li>Fufu - $5.99</li>
     `;
 
+    menuList.style.listStyleType = 'none'
+
     // Append the unordered list to the menu content div
     menuContent.appendChild(menuList);
 
+   
     menuContent.style.marginTop = '0.5rem';
     menuContent.style.color = 'white';
     menuContent.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
