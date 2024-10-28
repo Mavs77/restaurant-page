@@ -8,7 +8,7 @@ export default function loadAbout() {
     wrapperDiv.style.justifyContent = 'center';
     wrapperDiv.style.alignItems = 'center';
     wrapperDiv.style.height = '50vh'; // Full viewport height
-    wrapperDiv.style.width = '100vw'; // Full viewport width
+    wrapperDiv.style.width = '50vw'; // Full viewport width
 
     // Create a div for the About content
     const aboutContent = document.createElement('div');
@@ -19,6 +19,7 @@ export default function loadAbout() {
     aboutContent.style.color = 'white';
     aboutContent.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
     aboutContent.style.padding = '10px';
+    aboutContent.style.marginTop = '8rem';
     aboutContent.style.fontSize = '3rem';
     aboutContent.style.fontWeight = 'bold';
     aboutContent.style.width = '40vw';
